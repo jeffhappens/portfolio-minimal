@@ -24,6 +24,7 @@
                             <li>
                                 <a href="https://github.com/jeffhappens">
                                     <img src="/img/github-128-gray.png" />
+                                    Github
                                 </a>
                             </li>
                             <li>
