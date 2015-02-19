@@ -96,16 +96,24 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-
-body {
-    font-family: 'Open Sans';
+html,body {
+    height: 100%;
 }
 
-footer {
-    padding: 200px 0;
+body { font-family: 'Open Sans'; }
 
-    h1,h3 { letter-spacing: -1px; color: #2d2d2d; }
+header {
+    height: 200px;
+}
+
+section {
+    min-height: calc(~'100% - 400px');
+
+    h1,h3 {
+        letter-spacing: -1px;
+        color: #2d2d2d;
+    }
+    h1 { font-size: 48px; }
     h3 { margin: 0 0 5px 0; }
 
     p {
@@ -121,17 +129,35 @@ footer {
     li:hover {
         background: #eee;
     }
+
 }
 
-.bold {
-    font-weight: bold;
+footer {
+    height: 200px;
+    background: #2b2b2b;
+    background: #556270;
+
 }
 
+@media screen and(max-width: 991px) {
 
+    header { height: 100px; }
 
+    section {
+        min-height: calc(~'100% - 300px');
+        text-align: center;
 
+        .col-md-4 {
+            margin-bottom: 50px;
+        }
+        .col-md-8 {
+            ul {
+                text-align: center;
+            }
+        }
+    }
 
-
+}
 
 
 

@@ -5,7 +5,9 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <footer>
+        <header>
+        </header>
+        <section>
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
@@ -13,10 +15,12 @@
                         <h3>Full Stack Web Developer</h3>
                         <p>Phone: 443.944.6597</p>
                         <p>Email: <a href="mailto:jeffrey.mills@outlook.com">jeffrey.mills@outlook.com</a></p>
+                        <!--
                         <p>Resume: <a href="">jeffrey.mills.resume.pdf</a></p>
+                        -->
                     </div>
                     <div class="col-md-8">
-                        <ul class="list-inline text-center">
+                        <ul class="list-inline text-right">
                             <li>
                                 <a href="https://github.com/jeffhappens">
                                     <img src="/img/github-128-gray.png" />
@@ -41,6 +45,8 @@
                     </div>                    
                 </div>
             </div>
+        </section>
+        <footer>
         </footer>
 
         @include('includes.scripts')

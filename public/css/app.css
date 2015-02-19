@@ -78,33 +78,60 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+html,
+body {
+  height: 100%;
+}
 body {
   font-family: 'Open Sans';
 }
-footer {
-  padding: 200px 0;
+header {
+  height: 200px;
 }
-footer h1,
-footer h3 {
+section {
+  min-height: calc(100% - 400px);
+}
+section h1,
+section h3 {
   letter-spacing: -1px;
   color: #2d2d2d;
 }
-footer h3 {
+section h1 {
+  font-size: 48px;
+}
+section h3 {
   margin: 0 0 5px 0;
 }
-footer p {
+section p {
   padding: 3px 0;
   margin: 0;
 }
-footer li {
+section li {
   -webkit-transition: all 0.3s;
   -webkit-border-radius: 3px;
 }
-footer li:hover {
+section li:hover {
   background: #eee;
 }
-.bold {
-  font-weight: bold;
+footer {
+  height: 200px;
+  background: #2b2b2b;
+  background: #556270;
+}
+@media screen and (max-width: 991px) {
+  header {
+    height: 100px;
+  }
+  section {
+    min-height: calc(100% - 300px);
+    text-align: center;
+  }
+  section .col-md-4 {
+    margin-bottom: 50px;
+  }
+  section .col-md-8 ul {
+    text-align: center;
+  }
 }
 /* ==========================================================================
    Helper classes
