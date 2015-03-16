@@ -22,22 +22,22 @@
                     <div class="col-md-8">
                         <ul class="list-inline text-right">
                             <li>
-                                <a href="https://github.com/jeffhappens">
+                                <a target="_blank" href="https://github.com/jeffhappens">
                                     <img src="/img/github-128-gray.png" />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.linkedin.com/pub/jeffrey-mills/48/777/b87/en">
+                                <a target="_blank" href="https://www.linkedin.com/pub/jeffrey-mills/48/777/b87/en">
                                     <img src="/img/linkedin-128-black.png" />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://twitter.com/jeffreyamills">
+                                <a target="_blank" href="https://twitter.com/jeffreyamills">
                                     <img src="/img/twitter-128-blue.png" />
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.facebook.com/jeffrey.mills.501598">
+                                <a target="_blank" href="https://www.facebook.com/jeffrey.mills.501598">
                                     <img src="/img/facebook-128-blue.png" />
                                 </a>
                             </li>
@@ -48,7 +48,6 @@
         </section>
         <footer>
         </footer>
-
         @include('includes.scripts')
     </body>
 </html>
