@@ -22,9 +22,3 @@ Route::controllers([
 */
 
 Route::get('/','SiteController@index');
-
-Route::post('/listen', function() {
-
-	file_put_contents(public_path().'/githubdata.txt', Input::all());
-	
-});
