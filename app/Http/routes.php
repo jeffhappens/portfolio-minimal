@@ -23,6 +23,6 @@ Route::controllers([
 
 Route::get('/','SiteController@index');
 
-Route::get('/listen', function() {
+Route::post('/listen', function() {
 	touch(public_path().'/foo.txt');
 });
